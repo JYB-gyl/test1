@@ -93,6 +93,15 @@ public class reflexMain {
 //	        System.out.println(address);
 	        //4.用有参构造去创建对象
 	        
+	        //3.用无参构造器创建对象
+//	        Person person1 = (Person) constructor.newInstance();
+//	        String name = person1.getName();
+//	        System.out.println(name);
+//	        String age = person1.getAge();
+//	        System.out.println(age);
+//	        String address = person1.getAddress();
+//	        System.out.println(address);
+	        //4.用有参构造去创建对象
 	        //Person per = new Person("","","","");
 	        
 	        Constructor<?> declaredConstructor = clazz.getDeclaredConstructor(String.class,String.class,String.class,String.class);
